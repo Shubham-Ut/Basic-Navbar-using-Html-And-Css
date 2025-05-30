@@ -1,0 +1,111 @@
+body{
+            background-color: black;
+        }
+        ul {
+            padding: 20px;
+            background-color: rgb(23, 24, 24);
+            display:flex;
+            justify-content:space-evenly;
+            align-items:center;
+            list-style: none;
+            margin-top:40px;
+            border-radius:55px;
+        }
+        .li1 {
+            display: flex;
+            flex-direction: column;
+            display:none;
+        }
+        .li2 {
+            display: none;
+    
+        }
+        .lili{
+            display: none;
+        }
+        .lili1{
+            display: none;
+        }
+        .li3 {
+            display: none;
+        }
+        .a {
+            text-decoration: none;
+
+        }
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /* font-weight: bold; */
+        }
+        .a:hover .li1 {
+            display: block;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: rgb(26, 26, 26);
+            padding: 20px;
+            border-radius: 20px;
+            
+        }
+        .b:hover .li2 {
+            display: block;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(26, 26, 26);
+            padding: 20px;
+            border-radius: 20px;
+            
+        }
+        .li2:hover .lili {
+            display: block;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(26, 26, 26);
+            padding: 20px;
+            border-radius: 20px;
+            
+        }
+        .lili:hover .lili1 {
+            display: block;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(26, 26, 26);
+            padding: 20px;
+            border-radius: 20px;
+            
+        }
+        .c:hover .li3 {
+            display: block;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(26, 26, 26);
+            padding: 20px;
+            border-radius: 20px;
+            
+        }
+        .cards {
+            display:flex;
+            justify-content:flex-start;
+            align-items: flex-end;
+            gap: 30px;
+        }
+        .cards2 {
+            display:flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 30px;
+        }
+        .card {
+            gap: 20px;
+        }
